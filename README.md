@@ -2,7 +2,8 @@
 
 Shoot Cats out of Space!
 
-Work In Progress!
+This is definitely still a work in progress:
+https://drew-haas.github.io/space-cat-game/
 
 ## Installing / Getting started
 
