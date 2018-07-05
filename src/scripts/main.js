@@ -8,13 +8,13 @@ var main = (function() {
     var numOfCats = 30;
     var score = 0;
     var catSources = [
-        '../dist/media/cats/cat-1.png',
-        '../dist/media/cats/cat-2.png',
-        '../dist/media/cats/cat-3.png',
-        '../dist/media/cats/cat-4.png',
-        '../dist/media/cats/cat-5.png',
-        '../dist/media/cats/cat-6.png',
-        '../dist/media/cats/cat-7.png'
+        './dist/media/cats/cat-1.png',
+        './dist/media/cats/cat-2.png',
+        './dist/media/cats/cat-3.png',
+        './dist/media/cats/cat-4.png',
+        './dist/media/cats/cat-5.png',
+        './dist/media/cats/cat-6.png',
+        './dist/media/cats/cat-7.png'
     ];
 
     // get random number between two numbers
