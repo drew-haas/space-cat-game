@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.start {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+        color: purple;
+    }
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../src/media/space-bg.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+    .menu-top {
+        position: absolute;
+        left: 18px;
+        top: 18px;
+
+        h2 {
+            font-size: 14px;
+        }
+    }
+
+    .menu-bottom {
+        position: absolute;
+        bottom: 18px;
+        left: 18px;
+    }
+}
+
+.cat {
+    position: absolute;
+
+    img {
+        display: block;
+        width: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+    }
+
+    .exp-img {
+        width: 128px;
+        height: 128px;
+        margin: 0 auto;
+        display: none;
+        background-image: url('../src/media/explosion-sprite.png');
+    }
+
+    &.exploded {
+        pointer-events: none;
+
+        .cat-img {
+            display: none;
+        }
+
+        .exp-img {
+            display: block;
+        }
+    }
+}
+
+@for $i from 1 through 50 {
+    .cat:nth-child(#{$i}) {
+        width: random(200) + px;
+    }
+}
+
+#score {
+    color: #12DE75;
+}
