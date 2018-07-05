@@ -1,6 +1,8 @@
-# flat-starterkit
+# space-cat-game
 
-Creates a simple one page website or landing page. The starterkit includes Sass and ES6 compilation, as well as Browsersync for a local server and hot-reloading.
+Shoot Cats out of Space!
+
+Work In Progress!
 
 ## Installing / Getting started
 
@@ -34,15 +36,3 @@ Spin up a local development server with Browsersync.
 ```shell
 npm run debug
 ```
-
-## Deployment
-
-Using NPM scripts, the website can be deployed to GitHub Pages:
-
-```shell
-npm run deploy
-```
-
-This will push the current `dist` directory to the gh-pages branch.
-# space-cat-game
-# space-cat-game

@@ -12,7 +12,9 @@ var main = (function() {
         '../src/media/cats/cat-2.png',
         '../src/media/cats/cat-3.png',
         '../src/media/cats/cat-4.png',
-        '../src/media/cats/cat-5.png'
+        '../src/media/cats/cat-5.png',
+        '../src/media/cats/cat-6.png',
+        '../src/media/cats/cat-7.png'
     ];
 
     // get random number between two numbers
